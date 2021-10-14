@@ -7,4 +7,5 @@ class PagesController < ApplicationController
     render json:{message:phrase1}
   end
 
+
 end
