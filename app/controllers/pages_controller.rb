@@ -7,5 +7,13 @@ class PagesController < ApplicationController
     render json:{message:phrase1}
   end
 
+  # def body_param
+
+  #   # phrase3 = params["phrase3"]
+
+  #   render json:{message:"hello"}
+    
+  # end
+
 
 end

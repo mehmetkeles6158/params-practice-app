@@ -3,3 +3,14 @@ GET http://localhost:3000/user_phrase?phrase=Nothing is impossible!
 ###
 
 GET http://localhost:3000/user_phrase2/Nothing is impossible!
+
+###
+
+POST http://localhost:3000/user_phrase3
+content-type: application/json
+
+{
+  "phrase" : "Nothing is impossible!"
+}
+
+
